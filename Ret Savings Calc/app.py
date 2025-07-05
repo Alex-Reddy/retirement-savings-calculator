@@ -62,7 +62,7 @@ plt.legend()
 # Strategy Testing
 #Test strategy against historical market data from yahoo finance
 st.header("Calculate Your Strategy in Previous Market Conditions")
-st.subheader("This section allows you to test your retirement strategy against historical S&P 500 data to see how it would have performed in the past with the starting balance and contributions as above.")
+st.subheader("This section allows you to test your retirement strategy against historical S&P 500 data to see how it would have performed in the past with the same starting balance and contributions as above.")
 
 # Get user input for start year and end year (annual for the sake of simplicity)
 start_year = st.number_input("Start Year for Historical Data", 1958, 2023, value=2007) # Default to 2007
